@@ -1,0 +1,1 @@
+"./ffmpeg.exe" -i "C:\Users\aaron\Videos\Capture\Video\gots4e2.mpg" -vf "crop=704:396 "  -acodec libmp3lame -ac 2 -ab 128k -ar 48000 -async 1  -vcodec libx264 -preset fast -b:v 6000k  "C:\Users\aaron\Videos\Capture\Video\Game Of Thrones - s4 E2.avi" 
